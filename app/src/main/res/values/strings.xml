@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RSAEncrypt</string>
+    <string name="generate_key_pair_test">鍵作成テスト</string>
+    <string name="generate_key_pair_test_description">公開鍵、秘密鍵を作成して、Base64にエンコードした文字列を確認できます。</string>
+    <string name="public_key">公開鍵</string>
+    <string name="private_key">秘密鍵</string>
+    <string name="do_regenerate_key_pair">鍵を再作成する</string>
+    <string name="do_save_key_pair">鍵をファイルに保存する</string>
+    <string name="do_restore_key_pair">鍵をファイルからリストア</string>
+    <string name="empty">-</string>
+
+    <string name="encrypt_test">暗号化テスト</string>
+    <string name="encrypt_test_description">現在保持している公開鍵で入力ボックスに入った内容を暗号化します。</string>
+    <string name="decrypt_test">複合化テスト</string>
+    <string name="decrypt_test_description">現在保持している秘密鍵で暗号化テキストを複合化します。\n（あたりまえですが、鍵を再作成すると複合化はできません）</string>
+
+    <string name="do_encrypt">暗号化する</string>
+    <string name="encrypted_text">暗号化テキスト</string>
+    <string name="do_decrypt">複合化する</string>
+    <string name="decrypted_text">複合化テキスト</string>
+
+</resources>
